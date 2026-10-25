@@ -1,0 +1,20 @@
+QUIZ FLUTTER
+
+Quis Flutter adalah aplikasi kuis pilihan ganda. Pengguna memasukkan nama, menjawab 8 pertanyaan tentang Flutter, lalu melihat skor akhir beserta review jawaban benar dan salah. Progres jawaban tetap tersimpan saat layar dirotasi atau berpindah halaman.
+
+Fitur yang Tersedia:
+-Input nama pengguna dengan validasi (tidak boleh kosong)
+-Quis pilihan ganda dengan progress bar dan nomor soal
+-Navigasi soal sebelumnya / berikutnya, jawaban tetap tersimpan
+-Tombol "Lanjut" aktif hanya setelah memilih jawaban
+-Halaman hasil: skor, persentase, dan review tiap soal beserta kunci jawaban
+-Ulangi quis dan kembali ke beranda
+-State management dengan Provider (progres tidak hilang saat rotasi layar)
+-Ukuran UI dinamis berbasis MediaQuery (tanpa nilai hardcode per perangkat)
+-Bonus: Dark / Light theme
+-Bonus: Adaptive & responsive layout untuk tablet dan web
+
+Asset dan sumbernya:
+-Font Poppins	Google Fonts — SIL Open Font License (https://fonts.google.com/specimen/Poppins)
+-Logo aplikasi	(Canva )
+
